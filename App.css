@@ -1,0 +1,212 @@
+.addbtn{
+float: right;
+margin-top: -37px;
+}
+.addbtn a{
+  color: white;
+    text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.conatiner-class {
+  background-color: #3F51B5;
+}
+
+.navbar-left {
+  margin-left: 80px;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navbar-left:hover {
+  color: white;
+}
+
+.nvabar-right {
+  margin-right: 100px;
+}
+
+.navbar-mid {
+  font-family: sans-serif;
+  color: white !important;
+}
+
+.navbar-end {
+  font-family: sans-serif;
+  color: white !important;
+  background-color: #3F51B5 !important;
+  border-color: #3F51B5 !important;
+}
+
+.div-color {
+  background: #DDDDDD;
+}
+
+.card-class {
+  flex: 0 50%;
+  border-color: #DDDDDD;
+  box-shadow: 0px 3px 10px 4px #ccc;
+  border-radius: 15px;
+  margin: 8px;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+.form-control {
+  line-height: 2.0 !important;
+}
+
+.icon-class {
+  font-size: 28px;
+}
+
+.button-class {
+  border: 1px solid #DFDFDF;
+  background: white;
+  width: 45px;
+  height: 37px;
+}
+
+.icon-color1 {
+  font-size: 20px;
+  color: #5263BC;
+}
+
+.icon-color2 {
+  font-size: 20px;
+  color: #ef075a;
+}
+.icon-color{
+  font-size: 15px;
+  color: gray;
+}
+.App {
+  background-color: white;
+}
+
+.container-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form {
+  width: 420px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+.emailstyle {
+  box-shadow: rgba(36, 36, 117, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.formcontent {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.errormsg {
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
+}
+.container-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-post {
+  width: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+.img{
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 12%;
+}
+.img-propfile{
+  width: 50%;
+  border-radius: 50%;
+  border: 1px solid;
+}
+.btn-post{
+  width: 20px;
+}
+.img-pro{
+  width: 30%;
+  border-radius: 50%;
+}
+  
